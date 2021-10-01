@@ -15,4 +15,4 @@ Version 0.9.0
 - |API| Deprecate :class:`skopt.searchcv.BayesSearchCV` parameter `iid=`.
     :pr:`988`
 - |Feature| Add support for multimetric scoring to :obj:`skopt.searchcv.BayesSearchCV`.
-  :pr:`1030`
+  :pr:`1062`
