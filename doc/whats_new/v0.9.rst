@@ -14,3 +14,10 @@ Version 0.9.0
   :pr:`988`
 - |API| Deprecate :class:`skopt.searchcv.BayesSearchCV` parameter `iid=`.
     :pr:`988`
+
+:mod:`skopt.plots`
+------------------
+- |Fix| Fix `skopt.plots.plot_evaluations` incorrectly handling dimensions
+  as categorical dimensions when constant dimension are ignored due to wrong
+  indexing.
+  :pr:`1066`
