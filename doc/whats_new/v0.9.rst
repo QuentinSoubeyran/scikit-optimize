@@ -41,3 +41,5 @@ Version 0.9.1
   retained for a transitionary period; a warning is raised if the inference
   would change under the new scheme.
   :pr:`1067`
+- |Feature| Add support for multimetric scoring to :obj:`skopt.searchcv.BayesSearchCV`.
+  :pr:`1062`
